@@ -8,7 +8,7 @@ edition = "2018"
 anyhow = "1.0"
 byteorder = "1.4.3"
 hypervisor = { path = "../hypervisor" }
-vfio-ioctls = { git = "https://github.com/rust-vmm/vfio-ioctls", branch = "main" }
+vfio-ioctls = { git = "https://github.com/rust-vmm/vfio-ioctls", rev = "181cd5f29e8b98f6c519f8708b64f2dd0e611012" }
 vmm-sys-util = ">=0.3.1"
 libc = "0.2.96"
 log = "0.4.14"
